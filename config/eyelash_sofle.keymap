@@ -41,6 +41,7 @@
         cw: cw {
             compatible = "zmk,behavior-caps-word";
             #binding-cells = <0>;
+            continue-list = <UNDERSCORE BACKSPACE DELETE>;
             label = "CW";
         };
 

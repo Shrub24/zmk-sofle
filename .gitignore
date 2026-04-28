@@ -3,3 +3,6 @@ zmk/
 modules/
 tools/
 .west/
+.direnv/
+zephyr/
+eyelash_sofle/
