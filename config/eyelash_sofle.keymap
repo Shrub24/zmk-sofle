@@ -144,7 +144,7 @@
         layer_1 {
             bindings = <
 &kp TILDE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5       &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans     &kp EXCL  &kp AT  &kp HASH  &kp DLR  &kp PERC   &kp CIRC  &kp AMP  &kp STAR  &kp LPAR  &kp RPAR  &kp MINUS  &kp PLUS
+&trans     &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT   &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR  &kp RPAR  &kp MINUS  &kp PLUS
 &trans     &kp GRAVE  &kp BSLH  &kp PIPE  &kp UNDER  &kp TILDE   &kp LBRC  &kp RBRC  &kp LCUR  &kp RCUR  &kp EQUAL  &kp COLON  &kp DQT
 &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &trans      &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans
 &trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
