@@ -4,5 +4,6 @@ modules/
 tools/
 .west/
 .direnv/
+.omo
 zephyr/
 eyelash_sofle/
