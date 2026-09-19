@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RGUI, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '&cw', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&cw'
   - Z
   - X
   - C
