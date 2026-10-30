@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/cormoran
     - name: zzeneg
       url-base: https://github.com/zzeneg
+    - name: urob
+      url-base: https://github.com/urob
     - name: srwi
       url-base: https://github.com/srwi
   projects:
@@ -37,5 +39,8 @@ manifest:
     - name: zmk-keypeek-layer-notifier
       remote: srwi
       revision: b600af3bb7d1795073a4ce23e08d6db46371551b
+    - name: zmk-helpers
+      remote: urob
+      revision: v0.3
   self:
     path: config
