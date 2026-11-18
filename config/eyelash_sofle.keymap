@@ -129,7 +129,7 @@ MAKE_HRM(hmr, KEYS_L THUMBS) // Right-hand mods trigger on left hand + thumbs.
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp ESC    &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G        &kp LEFT_ARROW   &kp H      &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMI    &kp APOS
 &kp LEFT_SHIFT  &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp MINUS
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &lt 3 LEFT_ALT  &lt 1 SPACE   &kp LEFT_SHIFT  &kp ENTER &lt 2 ENTER    &kp BACKSPACE  &lt 3 DELETE      &kp PRINTSCREEN  &kp INSERT
+&kp C_MUTE  &kp LCTRL  &lt 2 LEFT_GUI  &lt 3 LEFT_ALT  &lt 1 SPACE   &kp LEFT_SHIFT  &kp ENTER &lt 2 ENTER    &kp BACKSPACE  &lt 3 DELETE      &kp PRINTSCREEN  &kp INSERT
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -151,10 +151,10 @@ MAKE_HRM(hmr, KEYS_L THUMBS) // Right-hand mods trigger on left hand + thumbs.
 
         layer_2 {
             bindings = <
-&kp CARET  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp DQT    &kp GT   &kp RBRC  &kp RBKT  &kp RPAR  &kp BSLH       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp QUESTION  &kp LT  &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp COLON  &kp AMPERSAND  &kp STAR  &kp PLUS  &kp UNDER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &kp EXCL   &kp AT    &kp HASH  &kp DOLLAR  &kp PERCENT    &trans  &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR   &kp RPAR   &kp PLUS
+&trans     &kp GRAVE  &kp LBRC  &kp RBRC  &kp LT      &kp GT         &trans  &kp FSLH   &kp LBRC       &kp RBRC  &kp LT     &kp GT     &kp BSLH
+&trans     &kp EQUAL  &kp LPAR  &kp RPAR  &kp LBKT    &kp RBKT       &trans  &kp PLUS   &kp LPAR       &kp RPAR  &kp LBKT   &kp RBKT   &kp APOS
+&trans     &kp BSLH   &kp PIPE  &kp UNDER &kp COMMA   &kp DOT        &trans  &kp FSLH   &kp QUESTION   &kp DQT   &kp COLON  &kp SEMI   &kp MINUS
 &trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
@@ -165,8 +165,8 @@ MAKE_HRM(hmr, KEYS_L THUMBS) // Right-hand mods trigger on left hand + thumbs.
         layer_3 {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_PP  &kp C_NEXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_PP  &kp C_NEXT  &trans    &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&kp F1       &kp F2        &kp F3      &kp F4    &kp F5      &kp F6    &trans  &kp F7  &kp F8         &kp F9          &kp F10       &kp F11          &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &mkp MB4  &mkp MB5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
